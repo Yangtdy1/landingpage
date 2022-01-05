@@ -1,0 +1,274 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+   position: fixed;
+  top: 0;
+  min-height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  width: 100vw; 
+  background: #66b3ff;
+  box-shadow: 0px 0px 15px #888888;
+  
+}
+header h1 {
+  padding-left:25px;
+  color: white;
+}
+header ul
+{
+  display: flex;
+  list-style-type: none;
+  margin-right: 10px; 
+  line-height: 50px;
+  color: #FFF;
+}
+
+header li a
+{
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+}
+#header li a p:hover {
+  background-color: black;
+  transition: background-color 1s;
+}
+@media (max-width: 800px)
+{
+  header
+  {
+    flex-direction: column; 
+    text-align: center;
+    
+  }
+
+  header ul
+  {
+    margin-top: 0px;
+    flex-direction: column;
+    line-height: 22px;
+  }
+}
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  background: #F8F8F8	;
+  box-shadow: 5px 10px 18px #888888;
+  padding-bottom:50px;
+  border-radius: 8px;
+}
+
+#registration {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 150px;
+  margin-top: 100px;
+  padding-top:50px;
+}
+
+#registration > h1 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+ 
+#registration input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+#registration input[type='submit'] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px; 
+  margin: 15px 0;
+  border: 0;
+  background: #3399ff;
+
+}
+
+#registration input[type='submit']:hover {
+  background-color: lightgrey;
+  transition: background-color 1s;
+}
+
+@media (max-width: 800px) {
+  #registration {
+    margin-top: 160px;
+  }
+}
+
+#features {
+}
+#features .grid{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#features h2 {
+  margin-bottom:1px;
+}
+#features p {
+  margin-top: 1px;
+  padding:0;
+}
+#features .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  font-size:50px;
+  color: #66b3ff;
+}
+
+@media (max-width: 550px) {
+  #features .icon {
+    display: none;
+  }
+}
+
+#features .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px; 
+  width: 80vw;
+}
+
+@media (max-width: 550px) {
+  #features .desc {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    height: 150px;
+  }
+}
+
+@media (max-width: 650px) {
+  #features {
+    margin-top: 0;
+  }
+}
+
+#prev-session {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#prev-session > iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.product > .level {
+  background-color: lightgreen;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > h2 {
+  margin-top: 15px;
+}
+
+.product > ol {
+  margin: 15px 0;
+  list-style-type: none;
+}
+
+.product > ol > li {
+  padding: 5px 0;
+}
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #66b3ff;
+  font-weight: 400;
+}
+
+.product > button:hover {
+  background-color: lightgrey;
+  transition: background-color 1s;
+}
+
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
+  }
+  .product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #66b3ff;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  color: white;
+}
