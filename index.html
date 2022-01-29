@@ -1,117 +1,142 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="landingpage.css">
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-  
+    <title>LandingPage</title>
+    <link src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></link>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="landingpage.css">
+    <link type="text/css" rel="stylesheet" href="normalize.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Alfa Slab One font -->
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+      
+    <!-- Inter font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    
 </head>
 <body>
-  
-<header id="header">
-    <h1> Redding Volleyball</h1>
-    <nav id="nav-bar"> 
-      <ul>
-        <li><a class="nav-link" href="#features">Features</a></li>
-        <li><a class="nav-link" href="#prev-session">Previous Session</a></li>
-        <li><a class="nav-link" href="#pricing">Pricing</a></li>
-      </ul>
-    </nav>
-  </header>
-<div class="container">
 
-  <section id="registration">
-    <h2>Register today for a spot </h2>
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input
-        name="email"
-        id="email"
-        type="email"
-        placeholder="Enter your email address"
-        required
-      />
-      <input id="submit" type="submit" value="Enroll" class="btn" />
-    </form>
-  </section>
-<!-- features section 
-with new container class to keep sections in center 
--->
-    <section id="features">
-      <div class="grid">
-        <div class="icon"><i class="fas fa-user-alt"></i></div>
-        <div class="desc">
-          <h2>Olympic medals coach</h2>
-          <p>
-            You will be train by coach James Tanaki, who won 3 consecutive olympic metal with his American team.
-          </p>
-        </div> 
-      </div>
-      <div class="grid">
-        <div class="icon"><i class="fas fa-dumbbell"></i></div>
-        <div class="desc">
-          <h2>Free use of ficility</h2>
-          <p>
-            Free full use of gym equipments and ficility during and after training hour.
-          </p>
-        </div>
-      </div>
-      <div class="grid">
-        <div class="icon">
-          <i class="far fa-credit-card"></i>
-        </div>
-        <div class="desc">
-          <h2>Free 3 months membership</h2>
-          <p>
-            Free 3 months membership starting package. There's also 6 and 9 month membership package. 
-          </p>
-        </div>
-      </div>
-    </section>
-    <section id="prev-session">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/KbC9XlXVgsI?start=65" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    </section>
-    <section id="pricing">
-      <div class="product" id="1month">
-        <div class="level">1 month program</div>
-        <h2>$500</h2>
-        <ol>
-          <li>1 month program.</li>
-          <li>Free 3 month gym pass.</li>
-          <li>Free one on one training.</li>
-          <li>Free Redding volleyball jersey.</li>
-        </ol>
-        <button class="btn">Select</button>
-      </div>
-      <div class="product" id="2month">
-        <div class="level">2 Months program</div>
-        <h2>$700</h2>
-        <ol>
-          <li>Included 1 month package perks.</li>
-          <li>3 month gym pass.</li>
-          <li>Free volleyball Ball.</li>
-          <li>Free water bottle.</li>
-        </ol>
-        <button class="btn">Select</button>
-      </div>
-      <div class="product" id="valve">
-        <div class="level">3 Months program</div>
-        <h2>$1200</h2>
-        <ol>
-          <li>included 2 month package perks.</li>
-          <li>Free 9 months gym pass.</li>
-          <li>Free volleyball shoe.</li>
-          <li>Free volleyball head band.</li>
-        </ol>
-        <button class="btn">Select</button>
-      </div>
-    </section>
-  
-</div> 
-    <footer>
+    <header id="header">
+        <h1> Redding Volleyball</h1>
+        <nav id="nav-bar"> 
+          <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#prev-session">Previous Session</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+    <div class="container">
+    
+      <section id="registration">
+        <h2>Register today for a spot </h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Enroll" class="btn" />
+        </form>
+      </section>
+    <!-- features section 
+    with new container class to keep sections in center 
+    -->
+        <section id="features">
+          <div class="grid">
+            <div class="icon"><i class="fas fa-user-alt"></i></div>
+            <div class="desc">
+              <h2>Olympic medals coach</h2>
+              <p>
+                You will be train by coach James Tanaki, who won 3 consecutive olympic metal with his American team.
+              </p>
+            </div> 
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fas fa-dumbbell"></i></div>
+            <div class="desc">
+              <h2>Free use of ficility</h2>
+              <p>
+                Free full use of gym equipments and ficility during and after training hour.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="far fa-credit-card"></i>
+            </div>
+            <div class="desc">
+              <h2>Free 3 months membership</h2>
+              <p>
+                Free 3 months membership starting package. There's also 6 and 9 month membership package. 
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="prev-session">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/KbC9XlXVgsI?start=65" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+        </section>
+        <section id="pricing">
+          <div class="product" id="1month">
+            <div class="level">1 month program</div>
+            <h2>$500</h2>
+            <ol>
+              <li>1 month program.</li>
+              <li>Free 3 month gym pass.</li>
+              <li>Free one on one training.</li>
+              <li>Free Redding volleyball jersey.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="2month">
+            <div class="level">2 Months program</div>
+            <h2>$700</h2>
+            <ol>
+              <li>Included 1 month package perks.</li>
+              <li>3 month gym pass.</li>
+              <li>Free volleyball Ball.</li>
+              <li>Free water bottle.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="valve">
+            <div class="level">3 Months program</div>
+            <h2>$1200</h2>
+            <ol>
+              <li>included 2 month package perks.</li>
+              <li>Free 9 months gym pass.</li>
+              <li>Free volleyball shoe.</li>
+              <li>Free volleyball head band.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+        </section>
       
-      <span>Copyright (c) 2022 by DaoYang</span>
-    </footer>
+    </div> 
+        <footer>
+          
+          <span>Copyright (c) 2022 by DaoYang</span>
+        </footer>
+    
+    
+    
 
-    </body>
+</body>
 </html>
-
