@@ -1,2 +1,2 @@
 # projects
-This repository is for my responsive web projects.
+This contain the code for my responsive landing page. 
